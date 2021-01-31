@@ -3,7 +3,6 @@ const path = require("path");
 const hbs = require("hbs");
 const geocode = require("./utils/geocode");
 const forecast = require("./utils/forecase");
-console.log(__dirname);
 const app = express();
 
 //Define paths for Express config
