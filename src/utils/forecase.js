@@ -17,7 +17,8 @@ const forecast = (latitude, longtitude, callback) => {
           body.current.temperature +
           ". It feels like " +
           body.current.feelslike +
-          " degrees out."
+          " degrees out. UV index is " +
+          body.current.uv_index
       );
     }
   });
